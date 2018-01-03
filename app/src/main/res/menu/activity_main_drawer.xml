@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="New Group" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="New Secret Chat" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="New Channel" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Saved Messages" />
+        <item
+            android:id="@+id/nav_m"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calls" />
+        <item
+            android:id="@+id/nav_man"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Invite Friends" />
+        <item
+            android:id="@+id/nav_mana"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_manag"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Telegram GAQ" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
